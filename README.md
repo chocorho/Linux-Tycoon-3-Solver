@@ -20,7 +20,7 @@ The general algorithm design would be:
 6.    Proceed to next Scenario;
 7.    Return to step 1. Rinse, repeat.
 
-## Approach 1: Hard-coded strategy (simple shell-based automation)
+## Approach 1: Hard-coded strategy (simple automation, shell)
 
 I could use the following dependencies:
 
@@ -31,7 +31,7 @@ I could use the following dependencies:
 
 I have **my own pre-decided strategy** that I believe will win the game automatically, but I'd like to confirm that this is the case. Therefore, I could code up my existing strategy and leave it running until I reach a certain threshold (51% market share).
 
-## Approach 2: Reinforcement Learning (an extension of pytorch in python 3)
+## Approach 2: Reinforcement Learning (pytorch extension, python 3)
 
 Wouldn't it be impressive to *automatically derive* efficient strategies for playing the game over time?
 
